@@ -1,0 +1,29 @@
+@media (max-width: 768px) {
+  .search-box {
+    display: none;
+  }
+
+  .nav-right a {
+    display: none;
+  }
+
+  .live-badge {
+    display: none;
+  }
+}
+
+@media (max-width: 900px) {
+  .missions-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  .missions-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .mission-card {
+    height: 300px;
+  }
+}
