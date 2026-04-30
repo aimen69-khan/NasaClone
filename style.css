@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .navbar {
@@ -94,7 +93,7 @@
 .hero {
   position: relative;
   height: 100vh;
-  background: url("./images/herosection.jfif") center/cover no-repeat;
+  background: url("./images/herosection.jfif");
   display: flex;
   flex-direction: column;
   justify-content: space-between;
