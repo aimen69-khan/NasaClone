@@ -414,6 +414,72 @@
   }
 }
 
+@media (max-width: 375px) {
+
+  .featured-news {
+    padding: 40px 0;
+    margin-top: 80px;
+  }
+
+  .container {
+    width: 95%;
+  }
+
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .header h1 {
+    font-size: 24px;
+  }
+
+  .header a {
+    font-size: 14px;
+  }
+
+  .news-grid {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .large,
+  .medium,
+  .small {
+    height: auto;
+  }
+
+  .card img {
+    height: 220px;
+  }
+
+  .right {
+    display: contents;
+  }
+
+  .large h2 {
+    font-size: 18px;
+  }
+
+  .medium h2 {
+    font-size: 16px;
+  }
+
+  .small h3 {
+    font-size: 14px;
+  }
+
+  .overlay {
+    padding: 15px;
+  }
+
+  .tag,
+  .time {
+    font-size: 10px;
+  }
+}
+
 @media (max-width: 720px) {
   .bottom-featured-news {
     padding: 18px 0;
@@ -517,3 +583,643 @@
     font-size: 13px;
   }
 }
+
+@media (max-width: 500px) {
+  .image-time img {
+    height: 400px;
+  }
+
+  .title-time {
+    position: absolute;
+    top: 2000px;
+    left: 30px;
+    z-index: 2;
+  }
+
+  .title-time h1 {
+    font-size: 20px;
+  }
+
+  .title-time p {
+    font-size: 12px;
+  }
+
+  .title-time a {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 375px) {
+  .image-time img {
+    height: 400px;
+  }
+
+  .title-time {
+    position: absolute;
+    top: 2200px;
+    left: 30px;
+    z-index: 2;
+  }
+
+  .title-time h1 {
+    font-size: 24px;
+  }
+
+  .title-time p {
+    font-size: 12px;
+  }
+
+  .title-time a {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 992px) {
+  .missions-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .mission-card {
+    height: 350px;
+  }
+
+  .missions-header h2 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 720px) {
+  .missions-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .missions-header h2 {
+    font-size: 26px;
+  }
+
+  .missions-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .mission-card {
+    height: 320px;
+  }
+}
+
+@media (max-width: 600px) {
+  .missions-section {
+    padding: 40px 0;
+  }
+
+  .missions-grid {
+    gap: 15px;
+  }
+
+  .mission-card {
+    height: 280px;
+  }
+
+  .mission-overlay h3 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 375px) {
+  .missions-header h2 {
+    font-size: 22px;
+  }
+
+  .discover-link {
+    font-size: 14px;
+  }
+
+  .mission-card {
+    height: auto;
+  }
+
+  .mission-card img {
+    height: 220px;
+  }
+
+  .mission-overlay {
+    padding: 15px;
+  }
+
+  .mission-overlay h3 {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .image-of-day {
+    padding: 0 20px;
+  }
+
+  .day-image img {
+    height: 500px;
+    margin-right: 60px;
+  }
+
+  .image-day h1 {
+    font-size: 42px;
+    margin-bottom: 50px;
+  }
+
+  .image-day h4 {
+    font-size: 23px;
+  }
+
+  .image-day p {
+    font-size: 19px;
+  }
+
+  .view-div {
+    position: static;
+    margin-top: 20px;
+    text-align: right;
+  }
+}
+
+@media (max-width: 1120px) {
+  .image-of-day {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .day-image img {
+    height: 450px;
+    margin-right: 0;
+    margin-bottom: 30px;
+    width: 100%;
+    max-width: 700px;
+  }
+
+  .image-day {
+    padding: 20px;
+    margin-top: 20px;
+  }
+
+  .image-day h1 {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+
+  .image-day h4 {
+    font-size: 22px;
+  }
+
+  .image-day p {
+    font-size: 18px;
+  }
+
+  .view-div {
+    text-align: center;
+  }
+}
+
+@media (max-width: 992px) {
+  .image-of-day {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .day-image img {
+    height: 450px;
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+
+  .image-day {
+    padding: 20px;
+    margin-top: 20px;
+  }
+
+  .image-day h1 {
+    font-size: 38px;
+    margin-bottom: 40px;
+  }
+
+  .image-day p {
+    font-size: 18px;
+  }
+
+  .view-div {
+    position: static;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 720px) {
+  .day-image img {
+    height: 380px;
+  }
+
+  .image-day h1 {
+    font-size: 32px;
+  }
+
+  .image-day h4 {
+    font-size: 22px;
+  }
+
+  .image-day p {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 600px) {
+  .day-image img {
+    height: 320px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .image-day {
+    padding: 15px;
+  }
+
+  .image-day h1 {
+    font-size: 28px;
+  }
+
+  .image-day h4 {
+    font-size: 20px;
+  }
+
+  .image-day p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 500px) {
+  .day-image img {
+    height: 280px;
+  }
+
+  .image-day h1 {
+    font-size: 24px;
+    margin-bottom: 25px;
+  }
+
+  .image-day h5 {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 375px) {
+  .image-of-day {
+    margin-top: 60px;
+  }
+
+  .day-image img {
+    height: 240px;
+  }
+
+  .image-day h1 {
+    font-size: 20px;
+  }
+
+  .image-day h4 {
+    font-size: 18px;
+  }
+
+  .image-day p {
+    font-size: 14px;
+  }
+
+  .image-day a {
+    font-size: 14px;
+  }
+
+  .view-div {
+    font-size: 14px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 992px) {
+  .more-nasa {
+    padding: 40px 25px;
+  }
+
+  .card-nasa {
+    width: 48%;
+  }
+
+  .more-nasa h2 {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 720px) {
+  .cards {
+    flex-direction: column;
+  }
+
+  .card-nasa {
+    width: 100%;
+  }
+
+  .grid {
+    height: 220px;
+  }
+
+  .more-nasa h2 {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 500px) {
+  .grid {
+    height: 180px;
+  }
+
+  .more-nasa h2 {
+    font-size: 22px;
+  }
+
+  .card-nasa p {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 375px) {
+  .more-nasa {
+    padding: 25px 15px;
+  }
+
+  .grid {
+    height: 160px;
+  }
+
+  .more-nasa h2 {
+    font-size: 20px;
+  }
+
+  .card-nasa h3 {
+    font-size: 15px;
+  }
+
+  .card-nasa p {
+    font-size: 9px;
+    letter-spacing: 1px;
+  }
+}
+
+
+@media (max-width: 720px) {
+  .Explore-image img {
+    height: 450px;
+  }
+
+  .Explore-title {
+    left: 8%;
+    max-width: 400px;
+    position: absolute;
+    top: 6100px;
+    left: 130px;
+  }
+
+  .Explore-title h1 {
+    font-size: 36px;
+  }
+
+  .Explore-title p {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 500px) {
+  .Explore-image img {
+    height: 350px;
+  }
+
+  .Explore-title {
+    max-width: 280px;
+    position: absolute;
+    left: 100px;
+    top: 5800px;
+  }
+
+  .Explore-title h1 {
+    font-size: 26px;
+  }
+
+  .Explore-title p {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 540px) {
+  .Explore-image {
+    margin-top: 100px;
+  }
+
+  .Explore-image img {
+    height: 380px;
+  }
+
+  .Explore-title {
+    max-width: 300px;
+    position: absolute;
+    top: 5830px;
+    left: 100px;
+  }
+
+  .Explore-title h1 {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+
+  .Explore-title p {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+  .Explore-title a {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 375px) {
+  .Explore-image img {
+    height: 300px;
+  }
+
+  .Explore-title {
+    left: 5%;
+    right: 5%;
+    max-width: 100%;
+    position: absolute;
+    top: 5400px;
+    left: 65px;
+  }
+
+  .Explore-title h1 {
+    font-size: 22px;
+  }
+
+  .Explore-title p {
+    font-size: 12px;
+  }
+
+  .Explore-title a {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 300px) {
+  .Explore-image {
+    margin-top: 80px;
+  }
+
+  .Explore-image img {
+    height: 240px;
+  }
+
+  .Explore-title {
+    left: 4%;
+    right: 4%;
+    max-width: 100%;
+    position: absolute;
+    top: 5500px;
+    left: 70px;
+  }
+
+  .Explore-title h1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .Explore-title p {
+    font-size: 11px;
+    line-height: 1.4;
+    margin-bottom: 10px;
+  }
+
+  .Explore-title a {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .freedom-container {
+    gap: 40px;
+  }
+
+  .freedom-text h1 {
+    font-size: 42px;
+  }
+
+  .freedom-text a {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 1020px) {
+  .freedom-container {
+    gap: 30px;
+  }
+
+  .freedom-text h1 {
+    font-size: 38px;
+  }
+
+  .freedom-text p {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 992px) {
+  .freedom-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .freedom-image img {
+    width: 100%;
+    max-width: 600px;
+  }
+
+  .freedom-text h1 {
+    font-size: 34px;
+  }
+
+  .freedom-text a {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 720px) {
+  .freedom-text h1 {
+    font-size: 30px;
+  }
+
+  .freedom-text h4,
+  .freedom-text h5 {
+    font-size: 18px;
+  }
+
+  .freedom-text p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 600px) {
+  .freedom-container {
+    margin-top: 60px;
+  }
+
+  .freedom-text h1 {
+    font-size: 26px;
+  }
+
+  .freedom-image img {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .freedom-text h1 {
+    font-size: 22px;
+  }
+
+  .freedom-text h4,
+  .freedom-text h5 {
+    font-size: 16px;
+  }
+
+  .freedom-text a {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 375px) {
+  .freedom-text h1 {
+    font-size: 20px;
+  }
+
+  .freedom-text p {
+    font-size: 13px;
+  }
+
+  .freedom-text a {
+    font-size: 16px;
+  }
+
+  .freedom-text h4,
+  .freedom-text h5 {
+    font-size: 15px;
+  }
+
+  .freedom-container {
+    margin-top: 40px;
+  }
+}
+
