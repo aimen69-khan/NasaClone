@@ -1223,3 +1223,190 @@
   }
 }
 
+
+@media (max-width: 910px) {
+  .freedom-container {
+    gap: 30px;
+  }
+
+  .freedom-text h1 {
+    font-size: 36px;
+  }
+
+  .freedom-text h4,
+  .freedom-text h5 {
+    font-size: 18px;
+  }
+
+  .freedom-text p {
+    font-size: 15px;
+  }
+
+  .freedom-text a {
+    font-size: 20px;
+  }
+
+  .footer-top {
+    gap: 25px;
+  }
+
+  .footer-links {
+    gap: 25px;
+  }
+
+  .footer-links a {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 720px) {
+  .freedom-text h1 {
+    font-size: 32px;
+  }
+
+  .freedom-text h4,
+  .freedom-text h5 {
+    font-size: 18px;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .footer-bottom-links {
+    gap: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .freedom-container {
+    margin-top: 60px;
+  }
+
+  .freedom-text h1 {
+    font-size: 28px;
+  }
+
+  .nasa-footer {
+    padding: 40px 25px;
+  }
+
+  .footer-left {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 530px) {
+
+  .freedom-container {
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 60px;
+    text-align: center;
+    padding: 0 15px;
+  }
+
+  .freedom-text {
+    margin-top: 10px;
+  }
+
+  .freedom-text h4 {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+
+  .freedom-text h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+
+  .freedom-text h5 {
+    font-size: 16px;
+  }
+
+  .freedom-text p {
+    font-size: 14px;
+    padding-top: 10px;
+  }
+
+  .freedom-text a {
+    font-size: 18px;
+  }
+
+  .freedom-image img {
+    width: 100%;
+    height: auto;
+  }
+
+  .nasa-footer {
+    padding: 30px 15px;
+  }
+
+  .footer-top {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .footer-left h2 {
+    font-size: 18px;
+  }
+
+  .footer-left p {
+    font-size: 13px;
+  }
+
+  .footer-links a {
+    font-size: 13px;
+  }
+
+  .socials span {
+    width: 28px;
+    height: 28px;
+  }
+
+  .footer-bottom-links {
+    flex-direction: column;
+    gap: 8px;
+    font-size: 12px;
+  }
+
+  .footer-meta {
+    flex-direction: column;
+    gap: 10px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 375px) {
+  .freedom-text h1 {
+    font-size: 20px;
+  }
+
+  .freedom-text p {
+    font-size: 13px;
+  }
+
+  .freedom-text a {
+    font-size: 16px;
+  }
+
+  .nasa-footer {
+    padding: 30px 15px;
+  }
+
+  .footer-bottom-links {
+    font-size: 12px;
+    flex-direction: column;
+  }
+
+  .footer-meta {
+    font-size: 12px;
+    gap: 20px;
+  }
+}
